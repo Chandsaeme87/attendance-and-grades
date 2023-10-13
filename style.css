@@ -1,0 +1,55 @@
+.jumbotron {
+    background-image: url("Uni_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-item:hover{
+    background-color: lightgreen;
+}
+.card{
+    margin: 0 auto;
+    float:none;
+    margin-bottom: 10px;
+}
+@media(max-width:900px){
+    .navbar{
+        background-color: lightblue;
+    }
+}
+@media(max-width:600px){
+    .navbar{
+        background-color: lightgreen;
+    }
+}
+@media(max-width:400px){
+    .navbar{
+        background-color: lightsalmon;
+    }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 110px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
